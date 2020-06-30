@@ -16,7 +16,7 @@ You can test it at www.lokly.in.   This is currently in beta and is available fo
 
 ```bash
 #Clone the repository
-git clone https://github.com/spandansingh/url_scraper.git
+git clone https://github.com/Tarungarg98/lokly.git
 ```
 
 ```bash
