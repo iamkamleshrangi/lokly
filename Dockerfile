@@ -1,7 +1,8 @@
 FROM openjdk:8-jre-alpine
 
-
 RUN apk add --no-cache python3-dev \
+	gcc~=8.3.0 \
+	musl-dev \
     && pip3 install --upgrade pip
 
 	
