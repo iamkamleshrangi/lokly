@@ -21,12 +21,12 @@ git clone https://github.com/Tarungarg98/lokly.git
 
 ```bash
 #Build the image
-sudo docker build -t 99roomz/lokly .
+sudo docker build -t tarungarg98/lokly .
 ```
 
 ```bash
 #Run the container
-sudo docker run -d -t -i -e email='<email>' -e password='<password>' -p 80:80 --name lokly 99roomz/lokly
+sudo docker run -d -t -i -e email='<email>' -e password='<password>' -p 80:80 --name lokly tarungarg98/lokly
 ```
 
 Yay! Everything is now up and running. Now go to http://localhost for web client. 
