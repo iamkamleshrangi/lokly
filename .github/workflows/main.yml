@@ -15,7 +15,8 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    runs-on: openjdk:8-jre-alpine
+
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -24,5 +25,12 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Run script
-      run: python server.py
-
+      run: apk add --no-cache python3-dev \ gcc~=8.3.0 \	musl-dev \    && pip3 install --upgrade pip
+    - name: Run script
+      run: pip3 --no-cache-dir install -r requirements.txt
+    - name: Run script
+      run: chmod 644 server.py
+    - name: Run script
+      run: python3 server.py
+	
+	
