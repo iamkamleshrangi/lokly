@@ -32,5 +32,3 @@ jobs:
       run: chmod 644 server.py
     - name: Run script
       run: python3 server.py
-	
-	
