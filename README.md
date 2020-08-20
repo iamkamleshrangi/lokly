@@ -10,7 +10,7 @@ The parser is based on natural language processing, parsing technology, and text
 
 # How to test it 
 
-You can test it at www.lokly.in.   This is currently in beta and is available for anyone to use and modify for their use. 
+You can test it at http://lokly.capitalmhub.com/.   This is currently in beta and is available for anyone to use and modify for their use. 
 
 # Installation 
 
