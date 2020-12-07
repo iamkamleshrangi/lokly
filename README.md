@@ -10,8 +10,8 @@ The parser is based on natural language processing, parsing technology, and text
 
 # How to test it 
 
-<!--You can test it at http://3.128.151.238/.   This is currently in beta and is available for anyone to use and modify for their use. -->
-Test it on local host by following the installation steps.
+You can test it at http://3.128.151.238/.   This is currently in beta and is available for anyone to use and modify for their use.
+<!--Test it on local host by following the installation steps.-->
 
 # Installation 
 
